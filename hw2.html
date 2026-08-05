@@ -3,44 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Profile</title>
+    <title>Team profile</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-      <div class="container">
-      <h1>Student Profile</h1>
+    <div class="container">
+      <h1 class = "text-info"><b>Vandelay Industries</b></h1>
+      <h2>Team Profile</h2>
       <blockquote class = "blockquote">
-        Learning never exhausts the mind.
+      Alone we can do so little; together we can do so much.
       </blockquote>
+      <h2>Team values</h2>
+         <ul class = "list-unstyled">
+            <li>Collaboration — We work together, share ideas openly, and support one another to achieve common goals.</li>
+            <li>Integrity — We act honestly, take ownership of our work, and hold ourselves accountable.</li>
+            <li>Respect — We value diverse perspectives and treat every team member with fairness and consideration.</li>
+         </ul>
       <div class="text-center">
-      <img src="https://static.vecteezy.com/system/resources/thumbnails/036/594/092/small_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-images-for-unfilled-user-profile-free-vector.jpg" alt="Profile" class="rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
+      <img src="https://c8.alamy.com/comp/K35531/happy-team-group-people-K35531.jpg" alt="Profile" class="rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
+      </div>   
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Notice:</strong> One or more employees are currently not active.
       </div>
-      <table class="table table-striped">
+      <table class="table">
     <thead>
       <tr>
-        <th>Subjects</th>
-        <th>Marks scored</th>
+        <th>Employee Name</th>
+        <th>Roles</th>
+        <th>Status</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>English</td>
-        <td>57</td>
+        <td>John Smith</td>
+        <td>Frontend Developer</td>
+        <td><span class="badge bg-success">Active</span></td>
       </tr>
       <tr>
-        <td>Physics</td>
-        <td>45</td>
+        <td>Sarah Johnson</td>
+        <td>Project Manager</td>
+         <td><span class="badge bg-secondary">On Leave</span></td>
       </tr>
       <tr>
-        <td>Computer Science</td>
-        <td>50</td>
+        <td>Michael Lee</td>
+        <td>UI/UX Designer</td>
+         <td><span class="badge bg-danger"> resigned</span></td>
       </tr>
     </tbody>
   </table>
-  <div class="alert  alert-success"><strong>Success!</strong> Profile updated successfully!</div>
-  </div>
+</div>
 </body>
 </html>
